@@ -1,0 +1,77 @@
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    font-family: 'Merienda';
+    font-size: 25px;
+}
+
+
+.btnHeader {
+    border-radius: 10px;
+    background-color: white;
+    text-decoration: none;
+    border: 0;
+    outline: 0; /* Removes border around button */
+    color: rgb(193, 13, 221);
+    font-family: 'Merienda';
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+
+
+#div {
+    top: 50%;
+    left: 50%;
+    width: 30em;
+    height: 18em;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+
+#quiz {
+    top: 50%;
+    left: 50%;
+    width: 30em;
+    height: 18em;
+    transform: translate(-50%, -50%);
+    position:fixed;    
+}
+
+#startQuiz {
+    color:white;
+    background-color: blueviolet;
+    border: 15px;
+}
+
+.answer {
+    color:white;
+    background-color: blueviolet;
+    border: 15px;
+    display: flex;
+    flex-direction: column;
+    max-width: 75%;
+    align-self: center;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.invisible {
+    display: none;
+  }
+
+#final-score,
+#highScores {
+  display: none;
+}

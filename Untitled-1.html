@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="Untitled-1.css">
+        <title>Coding Quiz!</title>
+    </head>
+    <body>
+    
+    <header>
+        <div>
+        <button id ="view-high-scores" class="btnHeader">High Scores</button>
+        </div>
+
+        <div id="quizTimer" class="quizTimer">
+            Time: <span id="counter">0</span>
+        </div>
+    </header>
+
+    <main>
+    <section id="div" class="startScreen">  
+        <h1 id="begin" class="Start">Coding Quiz Challenge!</h1>
+        <p>
+            Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!
+        </p>
+        <button id ="startQuiz">Start Quiz</button>
+    </section> 
+
+    
+    <section id="quiz" class="invisible">  
+        <h1 id="question">Question</h1>
+        <div id="answers" class="btnAnswer">
+            <button id="answer1" class="answer">Answer</button>
+            <button id="answer2" class="answer">Answer</button>
+            <button id="answer3" class="answer">Answer</button>
+            <button id="answer4" class="answer">Answer</button>
+        </div>
+        <br>
+        <div id="result" class="result">
+        <!--Result goes here-->
+        </div>
+
+    </section> 
+
+    <section id="final-score" class="invisible">
+        <div>
+            <div class="">
+                <h2>All done!</h2>
+                <p>Your Score: <span id="score">0</span></p>
+                 <p class="">Enter your initials:
+                 <span class=""><input placeholder="initials" id="initials"
+                 class=""></span>
+                <button id="submitScore" class="submit-score-btn">Submit</button>
+                <hr>
+                    </p>
+            </div>
+        </div>
+            
+    </section>
+
+    <!--HIGH SCORE RESULTS-->
+    <section id="highScores" class="invisible">
+        <div class="">
+            <div class="">
+                <p><h2>High Scores</h2></p>
+                <ol class="scoreList"></ol>
+                <button id="goBack" class="go-back-btn">Go Back</button>
+                <button id="clearScores" class="clear-scores-btn">Clear All Scores</button>
+            </div>
+         
+        </div>
+    </section>
+
+    </main> 
+
+        <script src="Untitled-1.js"></script>
+
+    </body>
+
+</html>
